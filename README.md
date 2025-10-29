@@ -1,11 +1,11 @@
 <div align="center">
-<h1>My Arch Linux Dotfiles</h1>
-<p>My Arch Linux configuration files (dotfiles) for i3 Window Manager!</p>
+<h1>My Linux Desktop Dotfiles</h1>
+<p>My Linux configuration files (dotfiles) for i3 Window Manager!</p>
 </div>
 
 ![Desktop Screenshot](desktop-screenshot.jpg)
 
-<h2 align="center">Installation</h2>
+<h2 align="center">Arch Linux - Installation</h2>
 
 - Install all the required packages from the `packages.txt` text file. (⚠️ Recommended to use `yay` Package Manager!)
 - Adjust configuration files to your needs.
