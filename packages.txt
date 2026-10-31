@@ -24,3 +24,4 @@ noto-fonts-extra
 ttf-firacode-nerd
 ttf-nerd-fonts-symbols
 ttf-nerd-fonts-symbols-common
+tela-circle-icon-theme-red

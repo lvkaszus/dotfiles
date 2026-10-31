@@ -14,11 +14,26 @@
 - Restart your running Arch Linux installation.
 - Enjoy! 😄️
 
+<h2 align="center">Themes</h2>
+
+The GTK theme and icons are not included in this branch, install them before copying the files:
+
+- Tela Circle icons (red): package `tela-circle-icon-theme-red` on Arch, or https://github.com/vinceliuice/Tela-circle-icon-theme
+- Marwaita Red GTK theme (https://github.com/darkomarko42/Marwaita-red): copy the theme folders to your themes directory:
+
+  ```bash
+  git clone https://github.com/darkomarko42/Marwaita-red.git
+  mkdir -p ~/.local/share/themes
+  cp -r Marwaita-red/Marwaita-* ~/.local/share/themes/
+  ```
+
+`~/.config/gtk-3.0/settings.ini` and `~/.gtkrc-2.0` select `Marwaita-Dark-Red` and `Tela-circle-red-dark`.
+
 <h2 align="center">Credits</h2>
 
-- This repository uses Tela Circle Icon Theme (https://github.com/vinceliuice/Tela-circle-icon-theme)
-- This repository uses Marwaita Red Theme (https://github.com/darkomarko42/Marwaita-red)
-- This repository uses Shapes Polybar Theme (https://github.com/adi1090x/polybar-themes)
+- This setup uses Tela Circle Icon Theme (https://github.com/vinceliuice/Tela-circle-icon-theme)
+- This setup uses Marwaita Red Theme (https://github.com/darkomarko42/Marwaita-red)
+- This setup uses Shapes Polybar Theme (https://github.com/adi1090x/polybar-themes)
 
 <h2 align="center">License</h2>
 
