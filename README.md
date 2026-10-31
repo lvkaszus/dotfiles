@@ -19,3 +19,7 @@
 - This repository uses Tela Circle Icon Theme (https://github.com/vinceliuice/Tela-circle-icon-theme)
 - This repository uses Marwaita Red Theme (https://github.com/darkomarko42/Marwaita-red)
 - This repository uses Shapes Polybar Theme (https://github.com/adi1090x/polybar-themes)
+
+<h2 align="center">License</h2>
+
+This branch is licensed under GPL-3.0, see [LICENSE](LICENSE) and [THIRD_PARTY.md](THIRD_PARTY.md). Marwaita Red and Tela Circle are not included, install them from the links in THIRD_PARTY.md.

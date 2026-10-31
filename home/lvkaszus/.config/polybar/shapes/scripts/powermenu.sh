@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# Based on the Shapes theme from polybar-themes by Aditya Shakya (adi1090x), https://github.com/adi1090x/polybar-themes (GPL-3.0).
+# Modified by lvkaszus, 2024-08-27.
 
 ## Author  : Aditya Shakya
 ## Mail    : adi1090x@gmail.com
