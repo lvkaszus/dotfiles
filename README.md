@@ -34,6 +34,7 @@ The GTK theme and icons are not included in this branch, install them before cop
 - This setup uses Tela Circle Icon Theme (https://github.com/vinceliuice/Tela-circle-icon-theme)
 - This setup uses Marwaita Red Theme (https://github.com/darkomarko42/Marwaita-red)
 - This setup uses Shapes Polybar Theme (https://github.com/adi1090x/polybar-themes)
+- Wallpaper visible in the screenshot: artwork signed "GLITCHBLACK" (1280x720), listed in the "Red Vaporwave Wallpapers" collection on WallpaperAccess (https://wallpaperaccess.com/red-vaporwave). It is not included in this repository.
 
 <h2 align="center">License</h2>
 
