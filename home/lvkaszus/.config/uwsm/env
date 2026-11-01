@@ -1,0 +1,4 @@
+# Environment variables loaded by uwsm for the whole session (any compositor)
+
+# Both Qt5 and Qt6 apps load the matching ctl plugin when asked for qt6ct
+export QT_QPA_PLATFORMTHEME=qt6ct

@@ -1,0 +1,57 @@
+/* gtkgreet stylesheet, same palette as the rest of the setup (waybar, wofi, kitty, dunst) */
+@define-color accent1 #4dd2ff; /* cyan */
+@define-color accent2 #e066ff; /* purple */
+@define-color bgcolor #121212;
+@define-color fgcolor #fcfcfc;
+
+* {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 14px;
+}
+
+/* Background image (copied to /etc/greetd so the greetd user can read it),
+   darkened by a semi-transparent black layer on top (change 0.35 to adjust) */
+window {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+                      url("file:///etc/greetd/gtkgreet-background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Clock above the login box: same color as hyprlock, with a light shadow */
+#clock {
+    color: @accent1;
+    font-size: 60px;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.7);
+}
+
+/* Login box */
+box#body {
+    background-color: alpha(@bgcolor, 0.8);
+    border: 1px solid alpha(@accent1, 0.5);
+    border-radius: 0px;
+    padding: 40px;
+}
+
+box#body label {
+    color: @fgcolor;
+}
+
+box#body entry {
+    color: @fgcolor;
+    background-color: alpha(@accent2, 0.35);
+    border: none;
+    border-radius: 0px;
+}
+
+box#body button {
+    color: @fgcolor;
+    background-image: none;
+    background-color: alpha(@bgcolor, 0.8);
+    border: 1px solid alpha(@accent1, 0.5);
+    border-radius: 0px;
+}
+
+box#body button:hover {
+    background-color: alpha(@accent1, 0.25);
+}

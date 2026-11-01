@@ -1,0 +1,76 @@
+/* Colors (same palette as waybar) */
+@define-color accent1 #4dd2ff; /* cyan */
+@define-color accent2 #e066ff; /* purple */
+@define-color bgcolor #121212;
+@define-color fgcolor #fcfcfc;
+
+* {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    text-shadow: none;
+    background: transparent;
+}
+
+window {
+    all: unset;
+    padding: 12px;
+    border-radius: 0px;
+    border: 1px solid alpha(@accent1, 0.5);
+    background-color: alpha(@bgcolor, 0.85);
+}
+
+#inner-box {
+    margin: 2px;
+    padding: 5px;
+}
+
+#scroll {
+    margin: 0px;
+    padding: 30px;
+}
+
+/* Search field */
+#input {
+    all: unset;
+    margin: 16px 16px 0 16px;
+    padding: 8px;
+    color: @fgcolor;
+    background-color: alpha(@accent2, 0.35);
+}
+
+#input image {
+    color: @accent1;
+}
+
+/* Entries */
+#text {
+    margin: 5px;
+    color: @accent2;
+}
+
+#entry {
+    margin: 5px;
+    padding-left: 10px;
+}
+
+#entry arrow {
+    color: @accent1;
+}
+
+#entry:selected {
+    border-radius: 20px;
+    background-color: rgba(25, 0, 46, 0.5);
+}
+
+#entry:selected #text {
+    color: #dbdbdb;
+}
+
+/*
+Based on a wofi style by Dimitrios Psaroudakis (last modified 6/6/2025),
+colors changed to match the rest of the setup.
+The original author is unknown to me. If you are the original author (or know
+who is), please open an issue in this repository and I will add proper credit.
+*/

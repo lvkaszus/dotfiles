@@ -1,0 +1,22 @@
+[terminal]
+# The VT to run the greeter on. Can be "next", "current" or a number
+# designating the VT.
+vt = 1
+
+# The default session, also known as the greeter.
+[default_session]
+
+# gtkgreet runs inside cage (a single-window Wayland kiosk compositor).
+#   cage -d       do not draw client-side decorations, when possible
+#   cage -s       allow switching VTs (Ctrl+Alt+F2 etc.) from inside cage
+#   gtkgreet -s   load a custom stylesheet
+# GTK_THEME=Adwaita:dark makes the default GTK widgets dark (the greetd user has no GTK settings).
+# GTK_CSD=0 and cage -d both try to remove the client-side "Greeter" title bar.
+# LANG/LANGUAGE select the greeter language. gtkgreet has no Polish translation upstream,
+# so a pl.mo has to be installed manually to /usr/share/locale/pl/LC_MESSAGES/gtkgreet.mo
+# (see the repository); without it the greeter simply stays in English.
+command = "env LANG=pl_PL.UTF-8 LANGUAGE=pl GTK_THEME=Adwaita:dark GTK_CSD=0 cage -d -s -- gtkgreet -s /etc/greetd/gtkgreet.css"
+
+# The user to run the command as. The graphical greeter runs as the unprivileged
+# "greetd" user created by the Fedora package.
+user = "greetd"

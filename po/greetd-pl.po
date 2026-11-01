@@ -1,0 +1,42 @@
+# Polish translation for gtkgreet
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gtkgreet package.
+# FULL NAME <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gtkgreet\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-14 14:12-0300\n"
+"PO-Revision-Date: 2026-10-31 12:00+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Polish\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: gtkgreet/actions.c:35
+msgid "Unexpected auth question"
+msgstr "Nieoczekiwane pytanie uwierzytelniania"
+
+#: gtkgreet/actions.c:56
+msgid "Login failed"
+msgstr "Logowanie nie powiodło się"
+
+#: gtkgreet/gtkgreet.c:129
+msgid "Username:"
+msgstr "Nazwa użytkownika:"
+
+#: gtkgreet/window.c:122
+msgid "Command to run on login"
+msgstr "Polecenie do uruchomienia po zalogowaniu"
+
+#: gtkgreet/window.c:148
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: gtkgreet/window.c:158
+msgid "Log in"
+msgstr "Zaloguj"

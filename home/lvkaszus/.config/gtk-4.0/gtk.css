@@ -1,0 +1,28 @@
+/* GTK4 / libadwaita color overrides.
+   Values are taken from the qt5ct/qt6ct color scheme (lvkaszus.conf) so GTK and Qt apps match.
+   The older theme_* names are aliases of these in libadwaita, so they follow automatically. */
+
+/* Window background and text (Qt: Window / WindowText) */
+@define-color window_bg_color #121212;
+@define-color window_fg_color #fcfcfc;
+
+/* Views: lists, text entries, file view (Qt: Base / Text) */
+@define-color view_bg_color #232323;
+@define-color view_fg_color #fcfcfc;
+
+/* Header bars, popovers and dialogs (Qt: Button / ToolTipBase) */
+@define-color headerbar_bg_color #1e1e1e;
+@define-color headerbar_fg_color #fcfcfc;
+@define-color headerbar_backdrop_color #121212;
+@define-color popover_bg_color #1e1e1e;
+@define-color popover_fg_color #fcfcfc;
+@define-color dialog_bg_color #121212;
+@define-color dialog_fg_color #fcfcfc;
+
+/* Accent fill: selections, suggested-action buttons, progress bars.
+   Purple, matching the pink/purple theme, with light text on top. */
+@define-color accent_bg_color #8a3fb8;
+@define-color accent_fg_color #fcfcfc;
+
+/* Accent as foreground: links and accent-colored text */
+@define-color accent_color #e066ff;

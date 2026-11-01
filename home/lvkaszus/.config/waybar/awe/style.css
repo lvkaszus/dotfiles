@@ -1,0 +1,137 @@
+/* Colors */
+@define-color critical #ff0000;
+@define-color fgcolor  #ffffff;
+@define-color bgcolor  #121212;
+@define-color alert    #df3320;
+
+@define-color accent1 #4dd2ff; /* cyan */
+@define-color accent2 #e066ff; /* purple */
+
+
+* {
+    border: none;
+    font-family: "JetBrains Mono", "Font Awesome 6 Free", "Font Awesome 6 Brands", monospace;
+    font-size: 14px;
+}
+
+window#waybar {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #ffffff;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+
+/* Workspaces */
+#workspaces {
+    margin: 0 4px;
+}
+
+/* Workspaces as the leftmost module: no left margin */
+.modules-left > widget:first-child > #workspaces {
+    margin-left: 0;
+}
+
+#workspaces button {
+    padding: 0;
+    margin: 4px 2px 6px 2px;
+    min-width: 36px;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+#workspaces button.active {
+    background-color: @accent1;
+    color: #303030;
+}
+
+#workspaces button:hover {
+    background: @accent2;
+    color: @bgcolor;
+}
+
+#workspaces button.urgent {
+    color: red;
+}
+
+#window {
+    margin: 0 4px;
+}
+
+
+/* Shared module style */
+#clock,
+#battery,
+#cpu,
+#memory,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#tray,
+#idle_inhibitor,
+#custom-power {
+    padding: 0 4px;
+    margin: 4px 3px;
+    color: @fgcolor;
+    background-color: transparent;
+}
+
+
+/* Module colors */
+#temperature,
+#network,
+#battery,
+#clock {
+    color: @accent1;
+}
+
+#cpu,
+#memory,
+#backlight,
+#pulseaudio,
+#custom-power {
+    color: @accent2;
+}
+
+
+/* States */
+#battery.critical:not(.charging) {
+    background-color: @critical;
+    color: #ffffff;
+}
+
+#temperature.critical {
+    background-color: @critical;
+}
+
+#network.disconnected {
+    color: @alert;
+}
+
+#pulseaudio.muted {
+    color: #838383;
+}
+
+#idle_inhibitor {
+    background-color: #1b1b1b;
+    border-radius: 4px;
+}
+
+
+/* Custom modules */
+#custom-separator {
+    color: #3b3b3b;
+    margin: 0 1px;
+    padding-bottom: 5px;
+}
+
+#custom-wmname {
+    min-width: 36px;
+    font-size: 16px;
+    color: #00cccc;
+}

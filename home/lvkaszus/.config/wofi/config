@@ -1,0 +1,23 @@
+[config]
+# Default mode: application launcher (.desktop entries)
+show=drun
+# Window size in pixels
+width=1200
+height=500
+columns=1
+# Placeholder text in the search field: "Search"
+prompt=Szukaj
+# Show application icons next to entries (needs an icon theme)
+allow_images=true
+# Case-insensitive search
+insensitive=true
+# Terminal used for entries that need one
+term=kitty
+# Hide the scrollbar
+hide_scroll=true
+
+# Optional drun options (mode-specific options need the "drun-" prefix):
+# Show generic names, e.g. "Web Browser", next to application names
+# drun-display_generic=true
+# Search only application names instead of all metadata (category, description)
+# drun-ignore_metadata=true

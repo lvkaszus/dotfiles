@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <object class="GtkMenu" id="menu">
+    <!-- Order: least to most "destructive". Keep ids in sync with menu actions in config.jsonc -->
+   <child>
+      <object class="GtkMenuItem" id="lock">
+        <property name="label">Zablokuj</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkMenuItem" id="logout">
+        <property name="label">Wyloguj</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkMenuItem" id="suspend">
+        <property name="label">Uśpij</property>
+      </object>
+    </child>
+<!--    <child>
+      <object class="GtkMenuItem" id="hibernate">
+        <property name="label">Hibernuj</property>
+      </object>
+    </child>-->
+    <child>
+      <object class="GtkMenuItem" id="reboot">
+        <property name="label">Restartuj</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkMenuItem" id="shutdown">
+        <property name="label">Wyłącz</property>
+      </object>
+    </child>
+  </object>
+</interface>

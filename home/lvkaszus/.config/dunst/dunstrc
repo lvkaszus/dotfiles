@@ -1,0 +1,63 @@
+# dunst configuration, styled to match the waybar/wofi/kitty palette
+# Reload with: dunstctl reload   (test with: notify-send "Title" "Body")
+
+[global]
+    # Position and size
+    monitor = 0
+    origin = top-right
+    offset = (12, 12)
+    width = (250, 400)
+    height = (0, 200)
+    notification_limit = 5
+    gap_size = 6
+
+    # Look
+    font = JetBrains Mono 11
+    padding = 10
+    horizontal_padding = 12
+    frame_width = 1
+    corner_radius = 0
+    markup = full
+    format = "<b>%s</b>\n%b"
+    alignment = left
+
+    # Icons (icon_theme is a comma-separated list of icon theme directory names, searched in order;
+    # Tela-dark is installed in ~/.local/share/icons, Adwaita is the fallback)
+    icon_position = left
+    max_icon_size = 48
+    enable_recursive_icon_lookup = true
+    icon_theme = Tela-dark, Adwaita
+
+    # Mouse: left = close, middle = run action and close, right = close all
+    mouse_left_click = close_current
+    mouse_middle_click = do_action, close_current
+    mouse_right_click = close_all
+
+[experimental]
+    # Pause the notification timeout while the mouse pointer hovers over it (Wayland only)
+    pause_on_mouse_over = true
+
+[urgency_low]
+    background = "#121212dd"
+    foreground = "#838383"
+    frame_color = "#3b3b3b"
+    # Progress bar color
+    highlight = "#838383"
+    timeout = 5
+
+[urgency_normal]
+    background = "#121212dd"
+    foreground = "#fcfcfc"
+    frame_color = "#4dd2ff"
+    # Progress bar color
+    highlight = "#4dd2ff"
+    timeout = 8
+
+[urgency_critical]
+    background = "#121212dd"
+    foreground = "#fcfcfc"
+    frame_color = "#df3320"
+    # Progress bar color
+    highlight = "#df3320"
+    # 0 = never expire, must be closed manually
+    timeout = 0
