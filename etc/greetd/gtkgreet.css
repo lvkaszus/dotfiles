@@ -12,7 +12,7 @@
 /* Background image (copied to /etc/greetd so the greetd user can read it),
    darkened by a semi-transparent black layer on top (change 0.35 to adjust) */
 window {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
                       url("file:///etc/greetd/gtkgreet-background.jpg");
     background-size: cover;
     background-position: center;
@@ -22,12 +22,12 @@ window {
 #clock {
     color: @accent1;
     font-size: 60px;
-    text-shadow: 0 0 6px rgba(0, 0, 0, 0.7);
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.95);
 }
 
 /* Login box */
 box#body {
-    background-color: alpha(@bgcolor, 0.8);
+    background-color: alpha(@bgcolor, 0.92);
     border: 1px solid alpha(@accent1, 0.5);
     border-radius: 0px;
     padding: 40px;
