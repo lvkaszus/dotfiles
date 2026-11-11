@@ -1,15 +1,15 @@
 # Polish translation for gtkgreet
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Copyright (C) 2026 Łukasz Lebiedziński
 # This file is distributed under the same license as the gtkgreet package.
-# FULL NAME <EMAIL@ADDRESS>, 2026.
+# Łukasz Lebiedziński <121642236+lvkaszus@users.noreply.github.com>, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gtkgreet\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-14 14:12-0300\n"
-"PO-Revision-Date: 2026-10-31 12:00+0100\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2026-11-11 21:50+0100\n"
+"Last-Translator: Łukasz Lebiedziński <121642236+lvkaszus@users.noreply.github.com>\n"
 "Language-Team: Polish\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
