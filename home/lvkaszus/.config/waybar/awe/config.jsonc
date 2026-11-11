@@ -1,3 +1,7 @@
+// Based on the "awe" waybar theme from https://github.com/7KIR7/dots
+// (no license found) and on the default Waybar config (MIT,
+// see THIRD_PARTY/Waybar-LICENSE). Modified by me.
+
 {
     "layer": "top",
     "position": "top",

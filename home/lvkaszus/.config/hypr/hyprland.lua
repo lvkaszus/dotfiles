@@ -1,6 +1,9 @@
 -- @lvkaszus's custom Hyprland configuration (Lua).
 -- Targets Hyprland 0.55+, with the session managed by uwsm (started from greetd/gtkgreet).
 -- Wiki: https://wiki.hypr.land/Configuring/Start/
+--
+-- Based on the default Hyprland configuration.
+-- Copyright and license: see THIRD_PARTY/Hyprland-LICENSE (BSD 3-Clause).
 
 
 ------------------

@@ -1,6 +1,7 @@
 # Polish translation for gtkgreet
 # Copyright (C) 2026 Łukasz Lebiedziński
 # This file is distributed under the same license as the gtkgreet package.
+# License text: THIRD_PARTY/GPL-3.0
 # Łukasz Lebiedziński <121642236+lvkaszus@users.noreply.github.com>, 2026.
 #
 msgid ""
