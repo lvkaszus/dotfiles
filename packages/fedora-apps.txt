@@ -1,0 +1,17 @@
+# Optional apps, install.sh asks before installing them (--no-apps skips it).
+# Same format as fedora.txt
+# Some keybinds in hyprland.lua launch these, without them they do nothing
+
+# File manager + helpers
+Thunar
+gvfs-smb
+gvfs-mtp
+gvfs-fuse
+tumbler
+thunar-volman
+thunar-archive-plugin
+file-roller
+
+# Text editor and system monitor
+mousepad
+htop

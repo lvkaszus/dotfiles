@@ -1,0 +1,69 @@
+# Core packages, always installed by install.sh
+# One per line, blank lines and # comments are ignored.
+# Hyprland stuff comes from the lionheartp/Hyprland COPR, install.sh enables
+# it before installing.
+# Optional apps are in fedora-apps.txt
+
+# install.sh needs it (clones the Tela icon theme)
+git
+
+# Hyprland and related
+hyprland
+hyprland-guiutils
+hyprpaper
+hyprpolkitagent
+hypridle
+hyprlock
+xdg-desktop-portal-hyprland
+xdg-desktop-portal-gtk
+hyprshot
+uwsm
+
+# Terminal, so there's always something to edit hyprland.lua with
+kitty
+
+# Bar, launcher, notifications, clipboard, media and brightness keys
+wofi
+waybar
+libnotify
+dunst
+wl-clipboard
+brightnessctl
+playerctl
+wtype
+unicode-emoji
+
+# Login manager (greetd + gtkgreet in cage)
+greetd
+gtkgreet
+greetd-selinux
+cage
+
+# Fonts
+jetbrains-mono-fonts-all
+fontawesome-fonts-all
+google-noto-color-emoji-fonts
+
+# Theming
+adw-gtk3-theme
+qt6ct
+qt5ct
+
+# Keyring
+# gnome-keyring-pam has pam_gnome_keyring.so which unlocks the login keyring
+# on login. Without it the PAM lines in /etc/pam.d/greetd get silently skipped
+gnome-keyring
+gnome-keyring-pam
+seahorse
+libsecret
+
+# Desktop misc
+network-manager-applet
+xdg-user-dirs
+
+# Audio
+pipewire
+pipewire-pulseaudio
+wireplumber
+pulseaudio-utils
+pavucontrol
