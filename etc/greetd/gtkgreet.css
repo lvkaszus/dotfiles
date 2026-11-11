@@ -10,7 +10,7 @@
 }
 
 /* Background image (copied to /etc/greetd so the greetd user can read it),
-   darkened by a semi-transparent black layer on top (change 0.35 to adjust) */
+   darkened by a semi-transparent black layer on top (change 0.5 to adjust) */
 window {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
                       url("file:///etc/greetd/gtkgreet-background.jpg");

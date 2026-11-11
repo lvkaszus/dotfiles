@@ -105,7 +105,7 @@ Options:
   -y, --yes       do not ask for confirmation
   -n, --dry-run   print what would be done without changing anything
       --no-apps   skip the optional apps (packages/<distro>-apps.txt)
-      --wallpaper PATH  use this wallpaper file instead of asking
+      --wallpaper PATH  use this wallpaper file instead of asking (--wallpaper=PATH works too)
       --no-wallpaper    do not install any wallpaper
   -h, --help      show this help
 EOF
